@@ -7,7 +7,7 @@ const TodoItem = (props) => {
       <input type="checkbox" />
       <span>{props.todo}</span>
       <button>수정</button>
-      <button>삭제</button>
+      <button>삭줴</button>
     </li>
   );
 };

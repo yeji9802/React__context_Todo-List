@@ -10,7 +10,7 @@ const TodoInput = () => {
       return;
     }
 
-    setTodos([...todos, text]);
+    setTodos([...todos, { text: text, completed: false }]);
     setText("");
   };
 
